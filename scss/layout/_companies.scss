@@ -1,0 +1,26 @@
+.companies{
+    background-color: #FDF0E9;
+
+    &__wrapper{
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       padding: 76px 0;
+    }
+}
+hr{
+    color: #F3D1BF;
+}
+
+@media (max-width: 571px){
+    .companies{
+        width: 100%;
+        padding: 20px 0;
+        margin: 0;
+
+        &__wrapper{
+            gap: 41px;
+            justify-content: center;
+        }
+    }
+}

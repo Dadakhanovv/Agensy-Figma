@@ -1,0 +1,66 @@
+.we-work{
+    background-color: #FDF0E9;
+    padding-top: 140px;
+    padding-bottom: 108px;
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__sub-title{
+        font-size: 16px;
+        font-weight: 400;
+        color: #EF6D58;
+    }
+    &__title{
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: 17px;
+    }
+    &__info{
+        font-size: 16px;
+        font-weight: 400;
+        color: #391400A3;
+        margin-top: 31px;
+    }
+    &__list__item{
+        display: flex;
+        align-items: center;
+        gap: 66px;
+    }
+    &__list__item h1{
+        font-size: 72px;
+        font-weight: 800;
+    }
+    &__list__item span{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+}
+hr{
+    margin-top: 108px;
+    color: #F3D1BF;
+}
+
+@media (max-width: 571px) {
+    .we-work{
+        width: 100%;
+
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__title{
+            width: 329px;
+            margin-top: 17px;
+        }
+        &__info{
+            width: 329px;
+            margin-top: 15px;
+        }
+        &__list__item{
+            width: 300px;
+            margin-top: 77px;
+        }
+    }
+}

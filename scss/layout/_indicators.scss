@@ -1,0 +1,37 @@
+.indicators{
+    background-color: #FDF0E9;
+
+    &__wrapper{
+        display: flex;
+        padding-top: 60px;
+    }
+    &__main{
+        border: 1px solid black;
+        width: 391px;
+        border-color: #F3D1BF;
+        padding: 45px 48px;
+    }
+    &__title{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    &__info{
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 13px;
+    }
+}
+
+@media (max-width: 571px){
+    .indicators{
+        width: 100%;
+
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__main{
+            width: 329px;
+            margin: 0 auto;
+        }
+    }
+}
